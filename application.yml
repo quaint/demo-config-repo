@@ -4,8 +4,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-      
+
 jwt:
   header: Authorization
-  secret: my-very-secret-key      
-        
+  secret: my-very-secret-key
+
+
+wicar:
+  url: http://localhost:9020
