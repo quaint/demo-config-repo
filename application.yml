@@ -8,6 +8,7 @@ eureka:
 jwt:
   header: Authorization
   secret: my-very-secret-key
+  rsaPublicKey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMHTm46Ce3gthmBCPoqz95FO6hyC1Ac7edzROb8SJRLxtPaM/4ec2WD9jteXHxl38kx8Vbg3WZGPXQIojEofQkjouXqEXQpqaLq0UjVLcXC08LGVB/qVgrHqhLU5LgAcwAVMJ067X5UkZ8AXxJNzGDSQKQfnZOKRPk3JRTSa+HQ4dpmojcqWBJrCbZrM1fnChYJNLmTDJpIxb22C4zfgKDhtwnxYSu3uJ7ixWUFCiKHgoIHVLBZtOPCnV5loxH438nl2afeU1Qi+OIwTXPgG+8ClVycHhVdGBZpoHRko5u5KtU8ot1H8yO4IGNz0N9EsfkGJbR1njzMgiLJQSisafR piotr.dros@IEG1-LDL-P02949
 
 
 wicar:
