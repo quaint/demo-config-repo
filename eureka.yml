@@ -5,7 +5,9 @@ eureka:
   dashboard:
     path: /dashboard
   instance:
-    hostname: localhost
+#    hostname: localhost
+     prefer-ip-address: true
+     ip-address: ${server.address}
   client:
     registerWithEureka: false
     fetchRegistry: false
