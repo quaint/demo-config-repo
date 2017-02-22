@@ -3,7 +3,7 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://172.30.134.207:8080/eureka/
+      defaultZone: http://172.30.57.233:8080/eureka/
 
 jwt:
   header: Authorization
