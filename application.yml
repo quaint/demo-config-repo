@@ -3,7 +3,7 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://172.30.57.233:8080/eureka/
+      defaultZone: http://eureka.van-dev.svc.cluster.local:8080/eureka/
 
 jwt:
   header: Authorization
@@ -14,6 +14,6 @@ edge_server:
     wicar:
       alias: /wicar/**
       url: http://localhost:9020
-      
+
 wicar:
-  url: http://localhost:9020      
+  url: http://localhost:9020
