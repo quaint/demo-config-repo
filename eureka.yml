@@ -2,8 +2,8 @@ server:
   port: 8080
 
 eureka:
-  dashboard:
-    path: /dashboard
+#  dashboard:
+#    path: /dashboard
   client:
     registerWithEureka: false
     fetchRegistry: false
